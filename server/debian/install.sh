@@ -7,7 +7,7 @@ apt-get install -y ethtool net-tools
 apt-get install -y acpid irqbalance fail2ban
 
 # Install development packages
-apt-get install -y nano vi vim build-essential curl zip git make gcc tmux build-essential htop mc bash-completion python3-pip python-is-python3
+apt-get install -y nano vim build-essential curl zip git make gcc tmux build-essential htop mc bash-completion python3-pip python-is-python3
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
