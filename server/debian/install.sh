@@ -7,7 +7,7 @@ sudo apt-get install -y ethtool net-tools
 sudo apt-get install -y acpid irqbalance fail2ban
 
 # Install development packages
-sudo apt-get install -y nano vim build-essential curl zip git make gcc tmux build-essential htop mc bash-completion python3-pip python-is-python3
+sudo apt-get install -y nano vim build-essential curl zip git make gcc tmux build-essential htop mc bash-completion python3-pip python-is-python3 dnsutils 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 sudo apt-get install -y curl unzip xvfb libxi6 libgconf-2-4
 sudo apt-get install default-jdk 
