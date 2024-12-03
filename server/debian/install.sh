@@ -4,7 +4,7 @@
 sudo apt-get install -y ethtool net-tools
 
 # Install server packages
-sudo apt-get install -y acpid irqbalance fail2ban
+sudo apt-get install -y acpid fail2ban
 
 # Install development packages
 sudo apt-get install -y nano vim build-essential curl zip git make gcc tmux build-essential htop mc bash-completion python3-pip python-is-python3 dnsutils 
