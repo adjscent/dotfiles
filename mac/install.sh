@@ -9,5 +9,3 @@ brew install navi thefuck node ripgrep nmap neovim wget fvm curl bash tree
 
 brew install --cask keka handbrake xquartz utm burpsuite tabby  
 
-# personal only
-brew install --cask qbittorrent
