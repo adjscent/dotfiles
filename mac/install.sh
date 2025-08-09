@@ -7,5 +7,15 @@ brew tap leoafarias/fvm # for flutter
 
 brew install navi thefuck node ripgrep nmap neovim wget fvm curl bash tree
 
-brew install --cask keka handbrake xquartz utm burpsuite tabby  
+brew install --cask keka 
+brew install --cask handbrake 
+brew install --cask xquartz 
+brew install --cask utm 
+brew install --cask burpsuite 
+brew install --cask tabby  
 
+brew install duti
+# Make VS Code as default editor for all text files
+duti -s com.microsoft.VSCode public.plain-text all
+# Open files without extensions with VS Code as well
+duti -s com.microsoft.VSCode public.data all
